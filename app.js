@@ -381,6 +381,7 @@ doneListBtn.addEventListener('click', () => {
             const number = btn.parentNode.firstChild.firstChild.innerText;
             btn.parentNode.parentNode.removeChild(btn.parentNode);
             localStorage.removeItem(number);
+            amountDone.innerText = `${localStorage.length}/313`;
         })
     })
 
