@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Karta Polaka</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c8da9518dd.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="done-container">
@@ -17,19 +18,19 @@
     </div>
     <div class="question-container">
         <p class="question-number"></p>
-        <p class="question">Click on Random to get random question</p>
+        <p class="question">Kliknij na RANDOM, aby otrzymać losowe pytanie. Możesz też wpisać numer ręcznie w polu tekstowym poniżej</p>
     </div>
     <div class="button-container">
-        <button class="btn back">&#129044;</button>
+        <button class="btn back"><i class="fa-solid fa-arrow-left"></i></button>
         <button class="btn random">Random</button>
-        <button class="btn done">✓</button>
+        <button class="btn done"><i class="fa-solid fa-check"></i></button>
     </div>
     <div class="button-container">
         <form name="numberForm">
             <input name="inputNumber" type="number" min="1" max="313" value="1" placeholder="1-313" class="btn inputNumber">
             <input name="submitNumber" type="submit" value="&#129046;" class="btn inputSubmit">
         </form>
-        <button class="btn done-list-btn">✓&#128203;</button>
+        <button class="btn done-list-btn"><i class="fa-solid fa-check"></i> <i class="fa-solid fa-list"></i></button>
     </div>
     <script src="app.js"></script>
 </body>
